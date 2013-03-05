@@ -16,5 +16,12 @@ def create_app():
 manager = Manager(create_app)
 
 
+@manager.command
+def freeze():
+    from flask.ext.frozen import Freezer
+    freezer = Freezer(flask.current_app)
+    freezer.freeze()
+
+
 if __name__ == '__main__':
     manager.run()
