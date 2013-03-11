@@ -21,28 +21,24 @@
     <div class="row">
 
       <div class="span4">
+        {% set talk = talks['git'] %}
 
-        <h3>Git avansat</h3>
+        <h3>{{ talk['title'] }}</h3>
 
         <p>
           <strong>Dată:</strong>
-          16 martie 10:00 - 13:00
+          {{ talk['date'] }}
           <span class="label label-warning">(tentative)</span>
         </p>
 
         <p>
           <strong>Locație:</strong>
-          EG-306
+          {{ talk['location'] }}
         </p>
 
         <p>
           <strong>Speaker:</strong>
-          <a href="http://pilgrimgray.wordpress.com/">Mihai Maruseac</a>
-        </p>
-
-        <p>
-          Tehnici avansate de lucru cu Git: rebase,
-          submodule, stash, rm -rf.
+          {{ talk['speaker'] }}
         </p>
 
       </div>
