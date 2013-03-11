@@ -9,6 +9,7 @@ import pages
 def create_app():
     app = flask.Flask(__name__)
     app.debug = (os.environ.get('DEBUG') == 'on')
+    app.config['FREEZER_RELATIVE_URLS'] = True
     app.register_blueprint(pages.pages)
     return app
 
