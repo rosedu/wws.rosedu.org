@@ -8,5 +8,5 @@ env['target_directory'] = 'public_html/web-workshops'
 
 @task
 def deploy():
-    local('./manage.py freeze')
+    local('DEBUG="" ./manage.py freeze')
     rsync_project(env['target_directory'], 'build/', delete=True)

@@ -10,6 +10,7 @@ def create_app():
     app = flask.Flask(__name__)
     app.debug = (os.environ.get('DEBUG') == 'on')
     app.config['FREEZER_RELATIVE_URLS'] = True
+    app.config['GOOGLE_ANALYTICS_CODE'] = 'UA-7579199-19'  # events.rosedu.org
     app.register_blueprint(pages.pages)
     return app
 

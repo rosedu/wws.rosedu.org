@@ -10,4 +10,8 @@
   <body>
     {% block content %}{% endblock %}
   </body>
+  {%- if not config['DEBUG'] %}
+    {%- from 'bits.html' import google_analytics %}
+    {{ google_analytics(config['GOOGLE_ANALYTICS_CODE']) }}
+  {%- endif %}
 </html>
