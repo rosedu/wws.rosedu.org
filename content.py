@@ -37,6 +37,9 @@ invităm să urmariți scenariile noastre de folosire a Git:</p>
 <li>stash</li>
 <li>reflog</li>
 </ul>
-""")
+"""),
+        'registration-link': 'http://webworkshops.eventbrite.com?ref=elink',
+        'registration-iframe': ('http://www.eventbrite.com/tickets-external'
+                                '?eid=4442573858&ref=etckt&v=2'),
     },
 }
