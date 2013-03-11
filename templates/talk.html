@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{% macro gravatar(code) -%}
+    <img src="https://secure.gravatar.com/avatar/{{ code }}?s=240">
+{%- endmacro %}
+
+
+{% block content %}
+  <div class="container">
+
+    <hgroup>
+      <h1>ROSEdu Web Workshops</h1>
+      <h2>{{ talk['title'] }}</h2>
+    </hgroup>
+
+    <div class="mugshots pull-right">
+      {{ gravatar('9a378ed2410bdabed82883f2615f6b61') }}
+      {{ gravatar('76864a40274a1fd0e8c099f4c9a02c66') }}
+    </div>
+
+    <header class="meta">
+      <p>
+        <strong>Dată:</strong>
+        {{ talk['date'] }}
+      </p>
+
+      <p>
+        <strong>Locație:</strong>
+        {{ talk['location'] }}
+      </p>
+
+      <p>
+        <strong>Speaker:</strong>
+        {{ talk['speaker'] }}
+      </p>
+    </header>
+
+    {{ talk['abstract'] }}
+
+  </div>
+{% endblock %}

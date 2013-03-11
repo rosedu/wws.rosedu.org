@@ -23,7 +23,8 @@
       <div class="span4">
         {% set talk = talks['git'] %}
 
-        <h3>{{ talk['title'] }}</h3>
+        {% set url = url_for('.talk', talk_id='git') %}
+        <h3><a href="{{ url }}">{{ talk['title'] }}</a></h3>
 
         <p>
           <strong>Dată:</strong>
