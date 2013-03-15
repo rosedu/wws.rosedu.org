@@ -10,7 +10,7 @@ talks = {
             u'<a href="http://ro.linkedin.com/in/razvandeaconescu">'
             u'Răzvan Deaconescu</a>'),
         'date': "16 martie 10:00 - 13:00",
-        'location': "EG-306",
+        'location': "EC-002",
         'abstract': Markup(u"""\
 <p>Git este unul dintre cele mai folosite și flexibile soluții de gestiune
 a codului (source code management). Poate fi folosit cu succes pentru
