@@ -46,4 +46,20 @@ invităm să urmariți scenariile noastre de folosire a Git:</p>
         'registration-iframe': ('http://www.eventbrite.com/tickets-external'
                                 '?eid=4442573858&ref=etckt&v=2'),
     },
+    'flask-intro': {
+        'title': "Flask intro",
+        'speaker': Markup(
+            u'<a href="http://alex.eftimie.ro/">Alex Eftimie</a>, '
+            u'<a href="http://grep.ro/">Alex Morega</a>'),
+        'speaker-images': [
+            'd43fad239b039cebdb4206cdc692f314',
+            '3cedacd1954b723b4f88ea7e3675bc40',
+        ],
+        'date': "27 martie 18:00 - 20:00",
+        'location': "TBA",
+        'abstract': Markup(u"""
+"""),
+        'registration-link': '',
+        'registration-iframe': (''),
+    },
 }
