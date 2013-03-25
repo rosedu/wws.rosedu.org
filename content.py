@@ -9,6 +9,10 @@ talks = {
             u'Mihai Maruseac</a>, '
             u'<a href="http://ro.linkedin.com/in/razvandeaconescu">'
             u'Răzvan Deaconescu</a>'),
+        'speaker-images': [
+            '9a378ed2410bdabed82883f2615f6b61',
+            '76864a40274a1fd0e8c099f4c9a02c66',
+        ],
         'date': "16 martie 10:00 - 13:00",
         'location': "EC-002",
         'abstract': Markup(u"""\
