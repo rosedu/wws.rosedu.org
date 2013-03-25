@@ -64,7 +64,7 @@ libertate în organizarea codului, și are un ecosistem mare de extensii
 3rd party.</p>
 
 <p>În acest workshop introductiv vei învăța cum să faci o aplicație de
-la zero: instalarea framework-ului, scris view-uri, tempalte-uri, acces
+la zero: instalarea framework-ului, scris view-uri, template-uri, acces
 la parametrii de request, lucrul cu o bază de date, lucrul cu sesiune,
 autentificare, configurație, deployment.</p>
 
