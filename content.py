@@ -71,7 +71,7 @@ autentificare, configurație, deployment.</p>
 <p>Workshop-ul va fi hands-on. Laptop-urile sunt opționale, vor fi
 calculatoare în sală.</p>
 """),
-        'registration-link': '',
+        'registration-link': 'http://ww-flask.eventbrite.com/',
         'registration-iframe': (''),
     },
 }
