@@ -21,9 +21,10 @@
     <div class="row">
 
       <div class="span4">
-        {% set talk = talks['git'] %}
+        {% set talk_id = 'git' %}
+        {% set talk = talks[talk_id] %}
 
-        {% set url = url_for('.talk', talk_id='git') %}
+        {% set url = url_for('.talk', talk_id=talk_id) %}
         <h3><a href="{{ url }}">{{ talk['title'] }}</a></h3>
 
         <p>
