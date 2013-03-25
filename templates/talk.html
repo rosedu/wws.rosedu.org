@@ -38,10 +38,15 @@
 
     {{ talk['abstract'] }}
 
-    <iframe src="{{ talk['registration-iframe'] }}"
-            frameborder="0" height="214" width="100%"
-            vspace="0" hspace="0" marginheight="5" marginwidth="5"
-            scrolling="auto" allowtransparency="true"></iframe>
+    {%- if talk['registration-iframe'] %}
+      <iframe src="{{ talk['registration-iframe'] }}"
+              frameborder="0" height="214" width="100%"
+              vspace="0" hspace="0" marginheight="5" marginwidth="5"
+              scrolling="auto" allowtransparency="true"></iframe>
+    {%- elif talk['registration-link'] %}
+      <p><a class="btn btn-small btn-warning"
+            href="{{ talk['registration-link'] }}">Rezervă loc</a></p>
+    {%- endif %}
 
   </div>
 {% endblock %}
