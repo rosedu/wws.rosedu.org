@@ -14,8 +14,9 @@
     </hgroup>
 
     <div class="mugshots pull-right">
-      {{ gravatar('9a378ed2410bdabed82883f2615f6b61') }}
-      {{ gravatar('76864a40274a1fd0e8c099f4c9a02c66') }}
+    {%- for hash in talk['speaker-images'] %}
+      {{ gravatar(hash) }}
+    {%- endfor %}
     </div>
 
     <header class="meta">

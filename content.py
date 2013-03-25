@@ -9,6 +9,10 @@ talks = {
             u'Mihai Maruseac</a>, '
             u'<a href="http://ro.linkedin.com/in/razvandeaconescu">'
             u'Răzvan Deaconescu</a>'),
+        'speaker-images': [
+            '9a378ed2410bdabed82883f2615f6b61',
+            '76864a40274a1fd0e8c099f4c9a02c66',
+        ],
         'date': "16 martie 10:00 - 13:00",
         'location': "EC-002",
         'abstract': Markup(u"""\
@@ -41,5 +45,30 @@ invităm să urmariți scenariile noastre de folosire a Git:</p>
         'registration-link': 'http://webworkshops.eventbrite.com?ref=elink',
         'registration-iframe': ('http://www.eventbrite.com/tickets-external'
                                 '?eid=4442573858&ref=etckt&v=2'),
+    },
+    'flask-intro': {
+        'title': "Flask intro",
+        'speaker': Markup(
+            u'<a href="http://alex.eftimie.ro/">Alex Eftimie</a>, '
+            u'<a href="http://grep.ro/">Alex Morega</a>'),
+        'speaker-images': [
+            'd43fad239b039cebdb4206cdc692f314',
+            '3cedacd1954b723b4f88ea7e3675bc40',
+        ],
+        'date': "27 martie 18:00 - 20:00",
+        'location': "TBA",
+        'abstract': Markup(u"""
+<p><a href="http://flask.pocoo.org/">Flask</a> este un framework pentru
+dezvoltarea de aplicații web. Este ușor de folosit, puternic, lasă multă
+libertate în organizarea codului, și are un ecosistem mare de extensii
+3rd party.</p>
+
+<p>În acest workshop introductiv vei învăța cum să faci o aplicație de
+la zero: instalarea framework-ului, scris view-uri, tempalte-uri, acces
+la parametrii de request, lucrul cu o bază de date, lucrul cu sesiune,
+autentificare, configurație, deployment.</p>
+"""),
+        'registration-link': '',
+        'registration-iframe': (''),
     },
 }

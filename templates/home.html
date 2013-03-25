@@ -21,9 +21,10 @@
     <div class="row">
 
       <div class="span4">
-        {% set talk = talks['git'] %}
+        {% set talk_id = 'git' %}
+        {% set talk = talks[talk_id] %}
 
-        {% set url = url_for('.talk', talk_id='git') %}
+        {% set url = url_for('.talk', talk_id=talk_id) %}
         <h3><a href="{{ url }}">{{ talk['title'] }}</a></h3>
 
         <p>
@@ -51,21 +52,31 @@
 
       <div class="span4">
 
-        <h3>TBA</h3>
+        {% set talk_id = 'flask-intro' %}
+        {% set talk = talks[talk_id] %}
+
+        {% set url = url_for('.talk', talk_id=talk_id) %}
+        <h3><a href="{{ url }}">{{ talk['title'] }}</a></h3>
 
         <p>
           <strong>Dată:</strong>
-          TBA
+          {{ talk['date'] }}
         </p>
 
         <p>
           <strong>Locație:</strong>
-          TBA
+          {{ talk['location'] }}
         </p>
 
         <p>
           <strong>Speaker:</strong>
-          TBA
+          {{ talk['speaker'] }}
+        </p>
+
+        <p>
+          <strong>Înregistrare:</strong>
+          <a class="btn btn-small btn-warning"
+             href="{{ talk['registration-link'] }}">Rezervă loc</a>
         </p>
 
       </div>
