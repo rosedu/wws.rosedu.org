@@ -67,6 +67,9 @@ libertate în organizarea codului, și are un ecosistem mare de extensii
 la zero: instalarea framework-ului, scris view-uri, tempalte-uri, acces
 la parametrii de request, lucrul cu o bază de date, lucrul cu sesiune,
 autentificare, configurație, deployment.</p>
+
+<p>Workshop-ul va fi hands-on. Laptop-urile sunt opționale, vor fi
+calculatoare în sală.</p>
 """),
         'registration-link': '',
         'registration-iframe': (''),
