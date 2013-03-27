@@ -56,7 +56,7 @@ invităm să urmariți scenariile noastre de folosire a Git:</p>
             '3cedacd1954b723b4f88ea7e3675bc40',
         ],
         'date': "27 martie 18:00 - 20:00",
-        'location': "TBA",
+        'location': "EG306, sala Intel",
         'abstract': Markup(u"""
 <p><a href="http://flask.pocoo.org/">Flask</a> este un framework pentru
 dezvoltarea de aplicații web. Este ușor de folosit, puternic, lasă multă
