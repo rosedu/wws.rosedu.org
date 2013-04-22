@@ -75,7 +75,7 @@ calculatoare în sală.</p>
         'registration-iframe': (''),
     },
     'flask-intro-2': {
-        'title': "Flask intro",
+        'title': "Flask intro #2",
         'speaker': Markup(
             u'<a href="http://alex.eftimie.ro/">Alex Eftimie</a>, '
             u'<a href="http://grep.ro/">Alex Morega</a>'),
