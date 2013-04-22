@@ -74,4 +74,32 @@ calculatoare în sală.</p>
         'registration-link': 'http://ww-flask.eventbrite.com/',
         'registration-iframe': (''),
     },
+    'flask-intro-2': {
+        'title': "Flask intro",
+        'speaker': Markup(
+            u'<a href="http://alex.eftimie.ro/">Alex Eftimie</a>, '
+            u'<a href="http://grep.ro/">Alex Morega</a>'),
+        'speaker-images': [
+            'd43fad239b039cebdb4206cdc692f314',
+            '3cedacd1954b723b4f88ea7e3675bc40',
+        ],
+        'date': "25 aprilie 18:00 - 20:00",
+        'location': "EG-106",
+        'abstract': Markup(u"""
+<p><a href="http://flask.pocoo.org/">Flask</a> este un framework pentru
+dezvoltarea de aplicații web. Este ușor de folosit, puternic, lasă multă
+libertate în organizarea codului, și are un ecosistem mare de extensii
+3rd party.</p>
+
+<p>În acest workshop introductiv vei învăța cum să faci o aplicație de
+la zero: instalarea framework-ului, scris view-uri, template-uri, acces
+la parametrii de request, lucrul cu o bază de date, lucrul cu sesiune,
+autentificare, configurație, deployment.</p>
+
+<p>Workshop-ul va fi hands-on. Laptop-urile sunt opționale, vor fi
+calculatoare în sală.</p>
+"""),
+        'registration-link': 'http://flask-ext.eventbrite.com/',
+        'registration-iframe': (''),
+    },
 }
