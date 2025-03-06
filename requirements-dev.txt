@@ -1,6 +1,6 @@
 honcho==0.3.1
 Flask==2.3.2
-Jinja2==3.1.5
+Jinja2==3.1.6
 Werkzeug==3.0.6
 Flask-Script==0.5.3
 Frozen-Flask==0.10
